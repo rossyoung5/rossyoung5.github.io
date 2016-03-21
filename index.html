@@ -1,125 +1,135 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>One Million Lines</title>
+  <title>Ross Young | Code + Life</title>
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
 
     <!--Google Font & FontAwesome-->
-    <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Rubik:500,700,500italic|Palanquin+Dark:400,600' rel='stylesheet' type='text/css'>
+
     <link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" >
+
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="css/bootstrap-custom.css" rel="stylesheet">
-    
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="assets/js/ie-emulation-modes-warning.js"></script>
+    <link href="css/custom.css" rel="stylesheet">
+</head>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
+<body>
+  <header>
+     <nav class="navbar navbar-default navbar-fixed-top">
 
-  <body>
-
-     <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mini_menu">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#"><img src="images/top-logo.png" title="One Million Lines" alt="One Million Lines"></a>
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#who-we-are">WHO WE ARE</a></li>
-            <li><a href="#get-involved">GET INVOLVED</a></li>
+        </button>
+
+        <a class="navbar-brand" href="#"><img src="images/name_and_logo.png" class="img-responsive"></a>
+
+    </div>
+
+    <div class="collapse navbar-collapse" id="mini_menu">
+        <ul class="nav navbar-nav navbar-left">
+          <li><a href="#background" class="nav1">About Ross</a></li>
+          <li><a href="#projects" class="nav1">Projects</a></li>
+          <li><a href="#contact" class="nav1">Contact Ross</a></li>
           </ul>
-        </div><!--/.nav-collapse -->
+          <ul class="nav navbar-nav navbar-right">
+            <li class="social"><a href="https://www.github.com/rossyoung5" target="_blank">
+                <i class="fa fa-lg fa-github-alt" title="GitHub"></i></a></li>
+            <li class="social"><a href="https://www.linkedin.com/in/rossyoung5" target="_blank">
+                <i class="fa fa-lg fa-linkedin-square" title="LinkedIn"></i></a></li>
+            <li class="social"><a href="https://twitter.com/mrossyoung" target="_blank">
+                <i class="fa fa-lg fa-twitter" title="Twitter"></i></a></li>
+            <li class="social"><a href="mailto: ross.young12@gmail.com" target="_blank">
+                <i class="fa fa-lg fa-envelope" title="Email"></i></a></li>
+          </ul>
       </div>
     </nav>
+  </header>
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Our goal is to inspire <br> New Orleans to write 1,000,000<br> lines of code_</h1>
-        <p>All over this country people are taking the <strong>HOUR OF CODE</strong> challenge issued by <strong>CODE.org</strong>. Millions of lines of code are being written. In the capital of Florida, Tallahassee, the community is taking the challenge and our goal is to write 1,000,000 lines of code_</p>
-        <p><a class="btn btn-danger btn-lg" href="#" role="button">Learn more &raquo;</a></p>
-     <img src="images/code.png" title="CODE.org" alt="Code.org">
-      </div>
-    </div>
-   <div id="who-we-are">
-    <div class="container homepage">
-    <img src="images/academy-brand-med.png" title="Academy" alt="MASSIVE Academy">
-    <h2>Who We Are</h2>
-    <hr>
-    <p>We are <a href="#" target="_blank">MASSIVE Academy</a>. We aim to improve education through both method - effective project-based learning and material - by teaching skills that are applicable to improving your life today.
-    </p>
-    </div>
-  </div>
-    <div id="get-involved">
-    <div class="container homepage">
-      <h2>Get Involved</h2>
-      <hr>
+  <section id="intro">
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-md-4">
-          <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-users fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Students</h3>
-          <p>Want to learn how to code? Want to help us get to <span class="emphasis">1,000,000</span> lines? <br>Click the button below, and we'll let you know how to get involved.</p>
-          <p><a class="btn btn-default" href="#" role="button">Start learning &raquo;</a></p>
-        </div>
-        <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-pencil fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Educators</h3>
-          <p>Want to bring this initiative to your school or institution? Awesome! <br>Click the button below, and we'll make it happen.</p>
-          <p><a class="btn btn-default" href="#" role="button">Join the Initiative &raquo;</a></p>
-       </div>
-        <div class="col-md-4">
-        <span class="fa-stack fa-4x">
-          <i class="fa fa-circle fa-stack-2x"></i>
-          <i class="fa fa-money fa-stack-1x fa-inverse"></i>
-          </span>
-          <h3>Sponsors</h3>
-          <p>We love all the support we get to help host more events and empower more lives with the knowledge of coding. Click to get involved.</p>
-          <p><a class="btn btn-default" href="#" role="button">Give Support &raquo;</a></p>
+        <div class="col-sm-12 text-center">
+          <h1>Ross Young</h1>
+          <hr>
+          <h3>Web Developer,  LSU Tiger,  Whovian,  Music Lover,  Comics Junkie</h3>
         </div>
       </div>
-      </div>
-      </div>
+    </div>
+  </section>
 
-      <footer>
-        <div class="container">
-          <p><img src="images/one-million-bottom-brand.png"></p>
+  <section id="background">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-1">
         </div>
-      </footer>
-    </div> <!-- /container -->
+        <div class="col-sm-5"id="background-left">
+          <h2>About Ross</h2>
+          <h3>I'm a web developer in New Orleans, LA</h3>
+          <p>I am a new instructor with the code immersion cohort with Tech Talent South, a coding bootcamp found throughout the Southeast US. I love learning more about how code can solve problems and create incredible things.</p>
+          <p>
+            I graduated from LSU with a degree in Mass Communication, and if the Tigers are playing I'm probably watching, no matter the sport. I've had the privilege of living in other cities around the world, and I love getting to learn more about other cultures and worldviews.
+          </p>
+        </div>
+        <div class="col-sm-6 text-right" id="background-right">
+          <img class="img-responsive" id="ross" src="images/ross1.png" alt="ross headshot">
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
+  <section id="projects">
+    <div class="container-fluid">
+      <div class="row" id="toprow">
+        <div class="col-sm-12 text-center" >
+        <h2>Past Projects</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-4 single-project text-center">
+        <a href="http://newsite.joinnoba.com" target="_blank"><img class="img-responsive" src="images/thumb_noba.png" alt="noba"></a>
+        </div>
+        <div class="col-sm-4 single-project text-center"><a href="http://www.vintagechurchnola.com/home" target="_blank"><img class="img-responsive" src="images/thumb_vintage.png" alt="vintage church"></a>
+        </div>
+        <div class="col-sm-4 single-project text-center">
+        <a href="http://www.brcounselingassociates.com" target="_blank"><img class="img-responsive" src="images/thumb_brca.png" alt="baton rouge counseling associates"></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-2">
+        </div>
+        <div class="col-sm-6" id="contact-left">
+          <h2>Contact Ross</h2>
+          <p>Feel free to contact me if you have a question, are considering a potential development project, or just want to meet up for coffee!</p>
+        </div>
+        <div class="col-sm-4" id="contact-right">
+          <a href="mailto:ross.young12@gmail.com" target="_blank" class="btn btn-lg btn-primary">Email Ross</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
 </html>
