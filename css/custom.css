@@ -266,6 +266,9 @@ ul.nav.navbar-nav {
     max-height: 70px; }
 
   .navbar-header {
-    height: 75px; } }
+    height: 75px; }
+
+  div.single-project {
+    padding-top: 5%; } }
 
 /*# sourceMappingURL=custom.css.map */
