@@ -269,6 +269,12 @@ ul.nav.navbar-nav {
     height: 75px; }
 
   div.single-project {
-    padding-top: 5%; } }
+    padding-top: 5%; }
+
+  .project-row-1 {
+    padding-bottom: 0; }
+
+  .project-row-2 {
+    padding-top: 0; } }
 
 /*# sourceMappingURL=custom.css.map */
